@@ -9,7 +9,8 @@
 
 *Used WebAssembly to upload it on [itoch.io](google.com)*
 <br>
-*The duck art by [@Cookiekayjax](@Cookiekayjax) on PixilArt*
+*The duck art by [@Cookiekayjax]([@Cookiekayjax](https://www.pixilart.com/cookiekayjax)) on PixilArt*
+
 
 
 

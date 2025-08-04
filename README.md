@@ -8,7 +8,9 @@
 **[...](assets/home.png)**
 
 *Used WebAssembly to upload it on [itoch.io](google.com)*
+<br>
 *The duck art by [@Cookiekayjax](@Cookiekayjax) on PixilArt*
+
 
 
 

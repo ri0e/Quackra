@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#gameContainer {
+  position: absolute;
+  transform-origin: 0 0;
+}
+
+#gameCanvas {
+  display: block;
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: white;
+  font-family: Verdana, sans-serif;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  #gameContainer {
+    touch-action: none;
+  }
+
+  #loading {
+    font-size: 5vw;
+  }
+
+  .spinner {
+    width: 15vw;
+    height: 15vw;
+    border-width: 2vw !important;
+  }
+}
